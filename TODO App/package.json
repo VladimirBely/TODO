@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirBely/TODO-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirBely/TODO-App/issues"
+  },
+  "homepage": "https://github.com/VladimirBely/TODO-App#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0",
+    "gulp": "^4.0.2"
+  },
+  "description": ""
+}

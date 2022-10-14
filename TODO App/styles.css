@@ -1,0 +1,49 @@
+body {
+    padding-top: 40px;
+    background-color: floralwhite;
+}
+
+.form-container {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-control {
+    margin: 0 auto 10px;
+}
+
+.cards-block {
+    padding-top: 30px;
+    max-width: 60%;
+}
+
+.important-container,
+.default-container {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.card--importance {
+    border: 2px solid brown;
+}
+
+.controls-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card--done {
+    border: 2px solid grey;
+    background-color: darkgray;
+    opacity: 0.4;
+}
